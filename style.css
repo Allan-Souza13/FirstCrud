@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Playfair+Display+SC&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+  
+}
+
+body
+{
+  text-align: center;
+}
+.addtasks
+{
+  margin-bottom: 100px;
+}
+ul
+{
+  list-style: none;
+  width: 500px;
+  
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: rgb(71, 138, 239);
+}
+
+li
+{
+  border: none;
+  margin: 5px;
+  margin-top: 40px;
+  padding: 5px;
+  
+  
+  
+}
+
+
+
+input{
+  width: 200px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-family: 'IBM Plex Mono';
+  font-weight: bold;
+  color: #284629;
+  
+
+}
+
+button{
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor:pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+button:hover
+{
+  background-color: #87e68a;
+  color: #284629;
+}
+
+.task-name {
+  float: left;
+  margin-left: 40px;
+  display: flex;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.button-container
+{
+  float: right;
+  margin-right: 30px;
+}
+
+.btnApagar
+{
+  background-color: #f15a57;
+  transition: .3s;
+}
+.btnApagar:hover
+{
+  background-color: #f08281;
+  color: #fff;
+}
+
+li::after {
+  content: "";
+  display: table;
+  clear: both;
+}
